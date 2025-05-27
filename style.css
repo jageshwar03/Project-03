@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 217, 0);
+}
+nav{
+    height: 7vh;
+    width: 100vw;
+    /* background-color: blue; */
+    position: absolute;
+    top: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+.leftnav{
+/* background-color: aqua; */
+padding: 1vh;
+}
+.rightnav{
+ /* background-color: chocolate;    */
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ padding: 1vh;
+}
+.ri-notification-4-fill{
+    color: brown;
+    font-size: 2.5vh;
+}
+.banana_page{
+    height: 90vh;
+    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  /* background-image: (url(../Project04/banana-bg-remove.png)); */
+}
+.banana_page img{
+    height: 100vh;
+    width: 50vw;
+    position: absolute;
+    z-index: 2;
+
+}
+.banana_page h3{
+z-index: 2;
+font-size: 3vh;
+}
+.banana_page h1{
+    font-size: 12vh;
+    padding-bottom: 5vh;
+    /* position: relative;
+    left: -1vh; */
+    z-index: 3;
+}
+.banana_page p{
+    z-index: 4;
+    font-size: 5vh;
+    padding-top: 7vh;
+    position: relative;
+    top: 7vh;
+}
+.banana_page h4{
+    z-index: 5;
+    position: relative;
+    top:8vh;
+    font-size: 5vh;
+}
+footer{
+    height: 5vh;
+    width: 100vw;
+    /* background-color: blue; */
+    height: 7vh;
+    width: 100vw;
+    /* background-color: blue; */
+    position: absolute;
+    /* top: 4vh; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+/* .ri-arrow-left-long-fill{
+z-index: 6;
+height: 5vh;
+width: 10vw;
+position:absolute;
+}
+.ri-arrow-right-long-fill{
+z-index: 7;
+height: 100vh;
+width: 1000vw;
+position:absolute;
+} */
